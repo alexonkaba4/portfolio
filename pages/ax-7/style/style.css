@@ -1,0 +1,19 @@
+body{
+    background-size: cover;
+    height: 100vh;
+    font-family: berlin sans fb;
+}
+#one-top{
+    padding: 1pc;
+    text-align: center;
+    font-size: 24px;
+}
+.one-top-item{
+    margin: 1pc;
+    color: black;
+}
+#nav{
+    background-color: rgba(0,0,0,0.1);
+    height: 100px;
+    box-shadow: 0px 0px 2px 1px;
+}

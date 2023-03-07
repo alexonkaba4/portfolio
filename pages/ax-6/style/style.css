@@ -1,0 +1,108 @@
+body{
+    background: whitesmoke;
+    font-family: century gothic, calibri, Bahnschrift;
+}
+#nav-barre{
+    background-color: black;
+    padding: 1pc;
+    box-shadow: 0px 0px 4px black;
+}
+#logo{
+    color: white;
+    border: solid;
+    padding: 4px;
+}
+#carousel{
+    height: 500px;
+}
+#carousel img{
+    height: 500px;
+    border: solid 1px;
+    color: black;
+}
+#one{
+    padding: 3pc;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#one-block{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.one-item{
+    width: 250px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 1px 4px black;
+    background-color: rgba(0,0,0,0.1);
+}
+.one-item-head{
+    height: 100px;
+    background-color: black;
+    color: white;
+    padding: 1pc;
+    text-align: center;
+}
+.one-item-text{
+    padding: 1pc;
+}
+#two{
+    padding: 1pc;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#two-block{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.two-item-left{
+    margin: 1pc;
+    padding: 1pc;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 1px 4px black;
+    background-color: black;
+    color: white;
+}
+.two-item-right{
+    margin: 1pc;
+    padding: 1pc;
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: end;
+    box-shadow: 0px 1px 4px black;
+    background-color: black;
+    color: white;
+}
+#two img{
+    height: 200px;
+    width: 200px;
+    box-shadow: 0px 0px 5px white;
+}
+.two-item-text{
+    padding: 0.5pc;
+}
+#footer{
+    padding: 4px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#footer a{
+    color: white;
+    font-size: larger;
+}

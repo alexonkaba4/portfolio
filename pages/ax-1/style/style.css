@@ -1,0 +1,166 @@
+body{
+	background-color: gainsboro;
+	color: white;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#nav{
+	background-color: rgb(0, 20, 80);
+}
+.logo{
+	background-color: gainsboro;
+	padding: 4px;
+}
+.ax-btn-menu{
+	color: white;
+}
+.cover{
+	background: url('../pics/1.jpg');
+	background-size: cover;
+	height: 500px;
+	padding: 4pc;
+}
+.cover-item{
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 1pc;
+}
+#one{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.one-item{
+	background-color: rgb(0, 20, 80);
+	width: 50%;
+	padding: 4pc;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.right{
+	background-color: gainsboro;
+	color: black;
+}
+.ax-one-btn-left{
+	color: white;
+	background-color: rgb(0, 20, 80);
+	border: solid gainsboro;
+	padding: 6px;
+}
+.ax-one-btn-right{
+	color: black;
+	background-color: gainsboro;
+	border: solid rgb(0, 20, 80);
+	padding: 6px;
+}
+.ax-one-btn-left:hover{
+	text-decoration: none;
+	color: white;
+	box-shadow: 0px 0px 4px 1px gainsboro;
+}
+.ax-one-btn-right:hover{
+	text-decoration: none;
+	color: black;
+	box-shadow: 0px 0px 4px 1px rgb(0, 20, 80);
+}
+#two{
+	color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2pc;
+}
+#two .container{
+	color: black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.two-item{
+	background-color: rgba(0, 0, 0, 0.1);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 1pc;
+	margin: 1pc;
+}
+.two-item i{
+	font-size: 5pc;
+	color: rgb(0, 20, 80);
+}
+#three{
+	background-color: rgb(0, 20, 80);
+	padding: 3pc;
+}
+#three .container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.three-item{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.three-item-font i{
+	text-decoration: none;
+	border-radius: 10%;
+	font-size: 2pc;
+	padding: 10px;
+}
+.four-top{
+	color: black;
+	background-color: gainsboro;
+	padding: 1pc;
+	text-align: center;
+}
+#four{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.four-item{
+	width: 25%;
+	padding: 3pc;
+	color: black;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	box-shadow: 0px 1px 1px 1px black;
+}
+.light{
+	background-color: gainsboro;
+}
+.four-item i{
+	font-size: 4pc;
+	color: rgb(0, 20, 80);
+	margin-bottom: 4px;
+}
+#five{
+	background-color: rgb(0, 20, 80);
+	padding: 3pc;
+}
+#five .container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.five-item{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 1pc;
+}
+#footer{
+	background-color: rgb(0, 20, 80);
+	padding: 4px;
+	text-align: center;
+}

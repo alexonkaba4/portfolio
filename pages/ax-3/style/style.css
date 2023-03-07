@@ -1,0 +1,104 @@
+body{
+    background-image: url(../pics/background/120747619_1822704404558442_6594033447656597476_o.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    font-family: Bahnschrift SemiBold, agency fb;
+}
+#nav{
+    background-color: rgba(0,0,0,0.8);
+    box-shadow: 0px 0px 10px white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#logo{
+    color: white;
+    border: outset;
+    padding: 4px;
+    font-family: century gothic;
+}
+.menu-item{
+    border: solid 1px;
+    padding: 5px;
+    margin: 0.2pc;
+    color: rgba(0,0,0,0.8);
+    background: orange;
+    border-radius: 0pc 0pc 0.8pc 0.8pc;
+}
+.menu-item:hover{
+    text-decoration: none;
+    background: rgba(0,0,0,0.4);
+    color: orange;
+    transition: 0.9s;
+}
+#text-zone{
+    padding: 1pc;
+    color: orange;
+}
+#text-zone h1{
+    text-shadow: 14px 1px 1px 0px black ;
+}
+.ax-background{
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    border-radius: 0pc 0pc 1pc 1pc;
+    box-shadow: 0px 0px 10px black;
+}
+#one{
+    padding: 1pc;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#one-content{
+    color: orange;
+}
+#two{
+    padding: 1pc;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+}
+#two-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.two-item{
+    width: 250px;
+    padding: 1pc;
+    background-color: rgba(0,0,0,1);
+    color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.light{
+    background-color: rgba(0,0,0,0.5);
+}
+.two-item:hover{
+    box-shadow: 0px 0px 5px 5px white;
+}
+.two-icon{
+    height: 100px;
+    width: 100px;
+}
+#three{
+    padding: 2pc;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

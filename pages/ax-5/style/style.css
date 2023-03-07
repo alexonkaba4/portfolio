@@ -1,0 +1,179 @@
+body{
+    font-family: rockwell, century gothic;
+}
+#nav{
+    position: fixed;
+    color: white;
+    background-color: #034F84;
+    height: 60px;
+    padding: 1pc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0px 0px 2px 1px;
+
+}
+#logo{
+    border: solid 1px white;
+    padding: 4px;
+    font-family: century gothic;
+}
+.vide{
+    height: 60px;
+}
+#nav-bottom{
+    height: 40px;
+    background-color: rgba(0,0,0,0.2);
+}
+#one{
+    background-color: rgba(0,0,0,0.1);
+    padding: 4pc;
+}
+#two{
+    padding: 1pc;
+    margin-top: 1pc;
+}
+.two-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.two-card{
+    color: white;
+    background-color: #034F84;
+    height: 250px;
+    width: 250px;
+    padding: 1pc;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    box-shadow: 0px 0px 2px 1px black;
+}
+.two-card:hover{
+    box-shadow: none;
+    transition: 0.6s ease;
+}
+.two-card-footer{
+    background-color: rgba(0,0,0,0.1);
+    width: 250px;
+    padding: 1pc;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#carousel{
+    margin-top: 4pc;
+    margin-bottom: 4pc;
+    height: 500px;
+}
+#carousel img{
+    height: 500px;
+}
+#three{
+    color: white;
+    background-color: #034F84;
+    padding: 1pc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 2px 1px black;
+}
+#three-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.three-cards{
+    width: 250px;
+    margin: 1pc;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.three-cards img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 1pc;
+    box-shadow: 0px 0px 2px 1px white;
+
+}
+#four-top{
+    color: white;
+    background-color: #034F84;
+    padding: 4px;
+    margin-top: 4pc;
+    text-align: center;
+    box-shadow: 0px 0px 2px 1px black;
+}
+#four{
+    padding: 1pc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.four-items{
+    margin: 1pc;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.reverse{
+    padding: 1pc;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.four-items-img{
+    height: 250px;
+    width: 250px;
+    box-shadow: 0px 0px 3px 1px black;
+}
+.four-items-body{
+    padding: 4px;
+    width: 70%;
+}
+#five{
+    padding: 3pc;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#five-block{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.five-item{
+    width: 250px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 1px 4px black;
+    background-color: rgba(0,0,0,0.1);
+}
+.five-item-head{
+    height: 80px;
+    background-color: #034F84;
+    color: white;
+    padding: 1pc;
+    text-align: center;
+}
+.five-item-text{
+    padding: 1pc;
+}
+#footer{
+    background-color: #034F84;
+    color: white;
+    padding: 4px;
+}
